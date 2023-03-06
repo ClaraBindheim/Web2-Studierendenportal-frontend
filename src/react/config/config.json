@@ -1,0 +1,20 @@
+{
+    "backendUrl": "https://localhost:443/",
+    
+    "backendEndpoints": {
+        "auth": "api/authenticate/",
+        "users": "api/users/",
+        "usersPublic": "api/publicUsers/",
+        "courses": "api/degreeCourses/",
+        "applications": "api/degreeCourseApplications/",
+        "myApplications": "api/degreeCourseApplications/myApplications/"
+    },
+
+    "workspaces": {
+        "LandingPage": "/",
+        "Startseite": "/",
+        "userManagement": "/usermanagement",
+        "degreeManagement": "/degreemanagement",
+        "applicationManagement": "/applicationManagement"
+    }
+}
